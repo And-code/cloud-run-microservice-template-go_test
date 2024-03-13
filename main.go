@@ -23,8 +23,9 @@ import (
 	"os/signal"
 	"time"
 
+	"cloud-run-microservice-template-go_test/metadata"
 	"cloud.google.com/go/logging"
-	"example.com/micro/metadata"
+	//"example.com/micro/metadata"
 	"github.com/gorilla/mux"
 	"google.golang.org/api/option"
 	"google.golang.org/grpc"

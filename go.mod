@@ -1,6 +1,6 @@
-module example.com/micro
+module cloud-run-microservice-template-go_test
 
-go 1.19
+go 1.21
 
 require (
 	cloud.google.com/go/compute/metadata v0.2.3
